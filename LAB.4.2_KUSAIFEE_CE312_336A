@@ -1,0 +1,30 @@
+class pyramid():
+  pyramid_base = ""
+  pyramid_with = ""
+  pyramid_height = ""
+  def calculaotor(self):
+        vlp = (self.pyramid_base.pyramid_base
+        *self.pyramid_with.pyramid_with
+        *self.pyramid_height.pyramid_height)/3
+        print(vlp)
+
+class pyramidbase():
+   P_base = ""
+class pyramidwidth():
+   P_width = ""
+class pyramidheight():
+   P_height = ""
+
+Pyramid = pyramid()
+pyramid1base = pyramidbase()
+pyramid1width = pyramidwidth()
+pyramid1height = pyramidheight()
+
+pyramid1base.pyramid_base= 10
+pyramid1height.pyramid_height = 17
+pyramid1width.pyramid_with = 7 
+
+Pyramid.pyramid_base = pyramid1base
+Pyramid.pyramid_height = pyramid1height
+Pyramid.pyramid_with = pyramid1width
+Pyramid.calculaotor()
